@@ -1,0 +1,51 @@
+.Component1 {
+  height: 100%;
+  width: 100%;
+}
+
+.Component1 .Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 80px;
+}
+
+.Component1 .Container ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  gap: 32px;
+}
+
+.Component1 .Container ul li {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.Component1 .Container ul li h4 {
+  color: var(--Pri-Purple-400, #582066);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.Component1 .Container ul li p:nth-child(2) {
+  color: var(--Neutral-50, #121417);
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.Component1 .Container ul li p:nth-child(3) {
+  color: var(--Neutral-400, #5a6475);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}

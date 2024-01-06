@@ -1,0 +1,67 @@
+.Testimonial {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Testimonial .Container {
+  height: 488px;
+  width: 1280px;
+  text-align: center;
+}
+
+.Testimonial .Container .Row {
+  padding: 32px;
+}
+
+.Testimonial .Container .Row .testi {
+  color: var(--Neutral-100, #24282f);
+  text-align: center;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 32px auto 48px;
+  width: 850px;
+}
+
+.Testimonial .Container .Row .profile {
+  width: 130px;
+  margin: 0 auto;
+}
+.Testimonial .Container .Row .profile p {
+  color: var(--Neutral-50, #121417);
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.Testimonial .Container .Row .profile .profession {
+  color: var(--Neutral-400, #5a6475);
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.Testimonial .Container .Row .profile .avatar {
+  margin-bottom: 16px;
+}
+
+.Testimonial .Container .Row .profile .stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}

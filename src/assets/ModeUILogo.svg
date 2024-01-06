@@ -1,11 +1,4 @@
-import "./Navbar.css";
-
-const Navbar = () => {
-  return (
-    <div className="Navbar">
-      <div className="Container">
-        <div className="logo">
-          <svg
+ <svg
             width="84"
             height="16"
             viewBox="0 0 84 16"
@@ -18,50 +11,3 @@ const Navbar = () => {
               fill="#121417"
             />
           </svg>
-        </div>
-        <div className="MainMenu">
-          <ul>
-            <li className="link">
-              <label htmlFor="Card">Card access</label>
-              <select name="Card">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-              </select>
-            </li>
-            <li className="link">Banking</li>
-            <li className="link">Processing</li>
-            <li className="link">About</li>
-            <li className="link">Carrier</li>
-            <li className="link">Contact</li>
-          </ul>
-        </div>
-        <div>
-          <button>
-            Login
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="log-in">
-                <path
-                  id="Icons"
-                  d="M12.5 2.5H15.8333C16.2754 2.5 16.6993 2.67559 17.0118 2.98816C17.3244 3.30072 17.5 3.72464 17.5 4.16667V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H12.5M8.33333 14.1667L12.5 10M12.5 10L8.33333 5.83333M12.5 10H2.5"
-                  stroke="#5A6475"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </g>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Navbar;

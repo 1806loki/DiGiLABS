@@ -1,0 +1,19 @@
+.LogoCloud {
+  padding: 6rem 5rem;
+  gap: 0.5rem;
+}
+
+.LogoCloud .Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogoCloud ul {
+  width: 76rem;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
